@@ -30,7 +30,7 @@ const createUser = async (payload: Partial<IUser>) => {
     auths: [authProvider],
     password: hashedPassword,
     ...rest,
-  });
+  });`1`
   return user;
 };
 
